@@ -5784,6 +5784,19 @@ video {
 	    color: #12141c;
 	    text-align: center;
 	}
+	.map-responsive{
+		overflow:hidden;
+		padding-bottom:56.25%;
+		position:relative;
+		height:0;
+	}
+	.map-responsive iframe{
+		left:0;
+		top:0;
+		height:100%;
+		width:100%;
+		position:absolute;
+	}
 	#section-contact .contact-details {
 	    padding: 0 15px 0 15px;
 	}
