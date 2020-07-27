@@ -216,7 +216,7 @@ input:focus,textarea:focus,form-control:focus{
 	width: 100% !important;
 }
 .cmz-vbtn{
-	border: 1px solid #d0bb79;
+	border: 1px solid #fe019a ;
     border-radius: 100%;
     display: inline-block;
     padding: 20px 30px;
@@ -254,7 +254,7 @@ input:focus,textarea:focus,form-control:focus{
     width: 100%;
 }
 .c-yellow{
-	color: #d0bb79 !important;
+	color: #fe019a  !important;
 }
 .mw-100{
 	max-width: 100% !important;
@@ -379,7 +379,7 @@ input:focus,textarea:focus,form-control:focus{
 .btn-5,.btn-5:focus{
 	font-family: 'Quicksand-Bold';
     font-size: 14px;
-    color: #d0bb79;
+    color: #fe019a ;
     background: #0d0f16;
     border: 2px solid #0d0f16;
     border-radius: 3px;
@@ -388,16 +388,16 @@ input:focus,textarea:focus,form-control:focus{
 }
 .btn-5:hover{
     color: #0d0f16;
-    background: #d0bb79;
-    border: 2px solid #d0bb79;
+    background: #fe019a ;
+    border: 2px solid #fe019a ;
 }
 /* 2.3.6 Button 6 */
 .btn-6,.btn-6:focus{
 	font-family: 'Quicksand-Bold';
     font-size: 16px;
     color: #0d0f16;
-    background: #d0bb79;
-    border: 2px solid #d0bb79;
+    background: #fe019a ;
+    border: 2px solid #fe019a ;
     border-radius: 3px;
     padding: 18px 72px;
     line-height: 40px;
@@ -512,7 +512,7 @@ input:focus,textarea:focus,form-control:focus{
 	line-height: 28px;
 }
 .title1 h2 span{
-	font-family: 'Quicksand-Regular';
+	font-family: 'Quicksand-Bold';
 }
 .title1 i,.title1 i::before{
 	color: #fe019a;
@@ -541,7 +541,7 @@ input:focus,textarea:focus,form-control:focus{
     top: 5px;
 }
 .title2 i,.title2 i::before{
-	color: #d0bb79;
+	color: #fe019a ;
 	font-size: 13px;
 }
 /* 2.5.3 Title3 */
@@ -552,7 +552,7 @@ input:focus,textarea:focus,form-control:focus{
 .title3 h6{
 	font-family: 'Quicksand-Bold';
 	font-size: 14px;
-	color: #d0bb79;
+	color: #fe019a ;
 	letter-spacing: 3.4px;
 	margin-bottom: 17px;
 }
@@ -564,12 +564,12 @@ input:focus,textarea:focus,form-control:focus{
 	letter-spacing: 0.4px;
 }
 .title3 i,.title3 i::before{
-	color: #d0bb79;
+	color: #fe019a ;
 	font-size: 14px;
 }
 .title-hr:after{
 	content: '';
-	border-top: 1px solid #d0bb79;
+	border-top: 1px solid #fe019a ;
 	position: absolute;
 	width: 100%;
 	max-width: 369px;
@@ -584,7 +584,7 @@ input:focus,textarea:focus,form-control:focus{
 .title4 h6{
 	font-family: 'Quicksand-Bold';
 	font-size: 14px;
-	color: #d0bb79;
+	color: #fe019a ;
 	letter-spacing: 3.4px;
 	margin-bottom: 15px;
 }
@@ -597,7 +597,7 @@ input:focus,textarea:focus,form-control:focus{
 }
 .title-hr2:before{
 	content: '';
-    border-top: 3px solid #d0bb79;
+    border-top: 3px solid #fe019a ;
     position: absolute;
     width: 69px;
     top: 6px;
@@ -647,7 +647,7 @@ input:focus,textarea:focus,form-control:focus{
 
 #section-preloader .blobs .blob-center {
 	position: absolute;
-	background: #d0bb79;
+	background: #fe019a ;
 	top: 50%;
 	left: 50%;
 	width: 30px;
@@ -659,12 +659,12 @@ input:focus,textarea:focus,form-control:focus{
 	-webkit-animation: blob-grow linear 3.4s infinite;
 	animation: blob-grow linear 3.4s infinite;
 	border-radius: 50%;
-	box-shadow: 0 -10px 40px -5px #d0bb79;
+	box-shadow: 0 -10px 40px -5px #fe019a ;
 }
 
 #section-preloader .blob {
 	position: absolute;
-	background: #d0bb79;
+	background: #fe019a ;
 	top: 50%;
 	left: 50%;
 	width: 30px;
@@ -1053,7 +1053,7 @@ a[aria-expanded="true"] {
 }
 #sidebar .list-menu:hover::before {
 	width: 20px;
-	background: #d0bb79;
+	background: #fe019a ;
 	-webkit-transition:all 0.3s ease;
 	transition:all 0.3s ease;
 }
@@ -1110,8 +1110,8 @@ a[aria-expanded="true"] {
 
 #sidebar ul.list-unstyled.components::-webkit-scrollbar-thumb {
     border-radius: 10px;
-    -webkit-box-shadow: inset 0 0 6px #d0bb79;
-    background:#d0bb79;
+    -webkit-box-shadow: inset 0 0 6px #fe019a ;
+    background:#fe019a ;
 }
 
 /**
@@ -1383,10 +1383,10 @@ a[aria-expanded="true"] {
 	top: 20px;
 }
 #section-navbar2 .wrap-dropdown li:hover:before{
-	background: #d0bb79;
+	background: #fe019a ;
 }
 #section-navbar2 .wrap-dropdown li:hover .dropdown-item{
-    color: #d0bb79;
+    color: #fe019a ;
     background: transparent;
     left: 15px;
     -webkit-transition: all 0.2s ease-in-out;
@@ -1472,7 +1472,7 @@ a[aria-expanded="true"] {
 	font-family: 'fontawesome';
     content: "\f053";
     font-size: 18px;
-    color: #d0bb79;
+    color: #fe019a ;
     transform: translateY(50%);
     bottom: 50%;
     left: 20px;
@@ -1502,7 +1502,7 @@ a[aria-expanded="true"] {
 	font-family: 'fontawesome';
     content: "\f054";
     font-size: 18px;
-    color: #d0bb79;
+    color: #fe019a ;
     transform: translateY(50%);
     bottom: 50%;
     left: 23px;
@@ -1557,7 +1557,7 @@ a.scroll-down:before {
     top: 2px;
 }
 #section-slider1 .scroll-down:hover{
-    color: #d0bb79;
+    color: #fe019a ;
 }
 a.scroll-down:before {
     -webkit-animation: action 0.9s infinite  alternate;
@@ -1593,7 +1593,7 @@ a.scroll-down:before {
 #section-slider1 .swiper-slide.video-slider .video-play p a{
 	font-family: 'Quicksand-Bold';
     font-size: 14px;
-    color: #d0bb79;
+    color: #fe019a ;
     margin-left: 22px;
     letter-spacing: 0.2px;
 }
@@ -1607,7 +1607,7 @@ a.scroll-down:before {
 	font-family: fontawesome;
     font-size: 17px;
     content: '\f105';
-    color: #d0bb79;
+    color: #fe019a ;
     top: 2px;
     left: 8px;
     position: relative;
@@ -1617,7 +1617,7 @@ a.scroll-down:before {
 
 #section-slider1 .swiper-slide.video-slider .video-play i:before{
 	font-size: 38px;
-	color: #d0bb79;
+	color: #fe019a ;
 	-webkit-transition: all 0.2s ease;
     transition: all 0.2s ease;
 }
@@ -1627,7 +1627,7 @@ a.scroll-down:before {
     transition: all 0.2s ease;
 }
 #section-slider1 .swiper-slide.video-slider .video-play i{
-    border: 1px solid #d0bb79;
+    border: 1px solid #fe019a ;
     border-radius: 100%;
     display: inline-block;
     padding: 20px 30px;
@@ -1722,7 +1722,7 @@ a.scroll-down:before {
 }
 #section-aboutus1 .bottom label{
 	font-family: 'Quicksand-Regular';
-    color: #d0bb79;
+    color: #fe019a ;
     font-size: 14px;
     text-transform: uppercase;
     letter-spacing: 3.2px;
@@ -1827,7 +1827,7 @@ margin-top: 30px;
 }
 #section-recentworks1 .our-portfolio .item .overlay i:after {
     content: '';
-    border-bottom: 3px solid #d0bb79;
+    border-bottom: 3px solid #fe019a ;
     width: 70px;
     z-index: 99999;
     display: inline-block;
@@ -1852,7 +1852,7 @@ margin-top: 30px;
  *============================*/
 #section-cta1{
 	padding: 105px 0;
-	background: #d0bb79;
+	background: #fe019a ;
 }
 #section-cta1 h2{
 	font-family: 'Quicksand-Regular';
@@ -1896,7 +1896,7 @@ margin-top: 30px;
 }
 #section-testimonial1 .content .image{
 	display: inline-block;
-    border: 3px solid #d0bb79;
+    border: 3px solid #fe019a ;
     border-radius: 100%;
     margin-bottom: 28px;
 }
@@ -1921,7 +1921,7 @@ margin-top: 30px;
 }
 #section-testimonial1 .owl-theme .owl-nav [class*=owl-]:hover {
     background: none;
-    color: #d0bb79;
+    color: #fe019a ;
     text-decoration: none;
 }
 #section-testimonial1 .owl-theme .owl-nav {
@@ -1969,7 +1969,7 @@ margin-top: 30px;
 	letter-spacing: 0;
 }
 #section-contactform1 .contactform1 input:focus, #section-contactform1 .contactform1 textarea:focus{
-	border: 2px solid #d0bb79 !important;
+	border: 2px solid #fe019a  !important;
 }
 #section-contactform1 .contactform1 textarea{
     height: 160px;
@@ -2002,7 +2002,7 @@ margin-top: 30px;
 #section-contactform1 .contactform1 button{
 	font-family: 'Quicksand-Bold';
     font-size: 16px;
-    background: #d0bb79;
+    background: #fe019a ;
     color: #0d0f16;
     border: none;
     padding: 18px 107px;
@@ -2025,7 +2025,7 @@ margin-top: 30px;
 }
 #section-aboutus2 h6{
 	font-family: 'Quicksand-Bold';
-	color: #d0bb79;
+	color: #fe019a ;
 	font-size: 14px;
 	text-transform: uppercase;
 	letter-spacing: 2px;
@@ -2044,7 +2044,7 @@ margin-top: 30px;
 }
 #section-aboutus2 h1 span{
 	font-family: 'Quicksand-Bold';
-	color: #d0bb79;
+	color: #fe019a ;
 }
 #section-aboutus2 p{
 	font-family: 'SourceSansPro-Regular';
@@ -2066,7 +2066,7 @@ margin-top: 30px;
 }
 #section-aboutus2 .bottom label{
 	font-family: 'Quicksand-Regular';
-    color: #d0bb79;
+    color: #fe019a ;
     font-size: 14px;
     text-transform: uppercase;
     letter-spacing: 3.2px;
@@ -2162,7 +2162,7 @@ margin-top: 30px;
 #section-ourportfolio1 .scrollbar .handle {
 	width: 100px;
 	height: 100%;
-	background: #d0bb79;
+	background: #fe019a ;
 	cursor: pointer;
 	border-radius: 25px;
 }
@@ -2255,7 +2255,7 @@ margin-top: 30px;
 }
 #section-vision .item i:before{
 	font-size: 50px;
-    color: #d0bb79;
+    color: #fe019a ;
 }
 #section-vision .item h3{
 	font-family: 'Quicksand-Bold';
@@ -2362,7 +2362,7 @@ margin-top: 30px;
 }
 #section-testimonial2 .image {
     display: inline-block;
-    border: 3px solid #d0bb79;
+    border: 3px solid #fe019a ;
     border-radius: 100%;
     margin-bottom: 28px;
     float: left;
@@ -2388,7 +2388,7 @@ margin-top: 30px;
 }
 #section-testimonial2 .owl-theme .owl-dots .owl-dot.active span, 
 #section-testimonial2 .owl-theme .owl-dots .owl-dot:hover span {
-    background: #d0bb79;
+    background: #fe019a ;
 }
 #section-testimonial2 .owl-theme .owl-dots .owl-dot span {
     width: 12px;
@@ -2446,7 +2446,7 @@ margin-top: 30px;
     box-shadow: inset 0px -300px 60px -110px #12141c;
 }
 #section-latestblog1 .item .content span{
-	border-top: 3px solid #d0bb79;
+	border-top: 3px solid #fe019a ;
 	width: 5px;
 	display: inline-block;
 	border-radius: 5px;
@@ -2535,7 +2535,7 @@ margin-top: 30px;
 }
 
 #section-ourportfolio2 .portfolioFilter a.current,#section-ourportfolio2 .portfolioFilter a:hover {
-	color: #d0bb79;
+	color: #fe019a ;
 	-webkit-transition: all 0.2s ease;
 	transition: all 0.2s ease;
 }
@@ -2638,7 +2638,7 @@ margin-top: 30px;
     transition: all .25s;
 }
 #section-ourportfolio2 .portfolioFilter2 svg:hover{
-	fill: #d0bb79;
+	fill: #fe019a ;
 	-webkit-transition: all .25s; 
 	transition: all .25s;
 }
@@ -2705,7 +2705,7 @@ margin-top: 30px;
 }
 #section-ourportfolio2.v2 .portfolioContainer .overlay i:after {
     content: '';
-    border-bottom: 3px solid #d0bb79;
+    border-bottom: 3px solid #fe019a ;
     width: 70px;
     z-index: 99999;
     display: inline-block;
@@ -2856,7 +2856,7 @@ margin-top: 30px;
 }
 #section-allstarted .strategic-right .item i:before{
 	font-size: 50px;
-    color: #d0bb79;
+    color: #fe019a ;
 }
 #section-allstarted .strategic-right .item h3{
 	font-family: 'Quicksand-Bold';
@@ -2908,7 +2908,7 @@ margin-top: 30px;
     box-shadow: inset 0px -340px 60px -120px #12141c;
 }
 #section-ourteam1 .item .content span{
-	border-top: 3px solid #d0bb79;
+	border-top: 3px solid #fe019a ;
 	width: 5px;
 	display: inline-block;
 	border-radius: 5px;
@@ -3022,7 +3022,7 @@ margin-top: 30px;
     display: inline-block;
 }
 #section-services1 .item i:before{
-	color: #d0bb79;
+	color: #fe019a ;
 	font-size: 50px;
 	-webkit-transition: all 0.2s ease-in-out;
 	transition: all 0.2s ease-in-out;
@@ -3091,7 +3091,7 @@ margin-top: 30px;
 }
 
 #section-howwework i {
-    border: 1px solid #d0bb79;
+    border: 1px solid #fe019a ;
     border-radius: 100%;
     display: inline-block;
     padding: 20px 30px;
@@ -3106,7 +3106,7 @@ margin-top: 30px;
 }
 #section-howwework i:before{
 	font-size: 38px;
-	color: #d0bb79;
+	color: #fe019a ;
 }
 #section-howwework i:hover {
     border: 1px solid #ffffff;
@@ -3264,8 +3264,8 @@ video {
 #section-subscribe1 .subscribe button{
 	font-family: 'Quicksand-Bold';
     font-size: 16px;
-    background: #d0bb79;
-    border: 2px solid #d0bb79;
+    background: #fe019a ;
+    border: 2px solid #fe019a ;
     color: #0d0f16;
     border-radius: 3px;
     padding: 13px 15px;
@@ -3325,7 +3325,7 @@ video {
 }
 
 #section-ourportfolio3 .portfolioFilter a.current,#section-ourportfolio2 .portfolioFilter a:hover {
-	color: #d0bb79;
+	color: #fe019a ;
 	-webkit-transition: all 0.2s ease;
 	transition: all 0.2s ease;
 }
@@ -3417,7 +3417,7 @@ video {
 }
 #section-ourportfolio3 .portfolioContainer .overlay i:after {
     content: '';
-    border-bottom: 3px solid #d0bb79;
+    border-bottom: 3px solid #fe019a ;
     width: 70px;
     z-index: 99999;
     display: inline-block;
@@ -3550,7 +3550,7 @@ video {
 }
 #section-portfoliodetails1 .related-projects .overlay i:after {
     content: '';
-    border-bottom: 3px solid #d0bb79;
+    border-bottom: 3px solid #fe019a ;
     width: 70px;
     z-index: 99999;
     display: inline-block;
@@ -3884,7 +3884,7 @@ video {
 #section-newsdetails1 .contents .date{
 	font-family: 'Quicksand-Regular';
 	font-size: 12px;
-	color: #d0bb79;
+	color: #fe019a ;
 	margin-bottom: 45px;
     display: inline-block;
 	letter-spacing: 3px;
@@ -3984,7 +3984,7 @@ video {
 }
 #section-newsdetails1 .contents .related-posts .overlay i:after {
     content: '';
-    border-bottom: 3px solid #d0bb79;
+    border-bottom: 3px solid #fe019a ;
     width: 70px;
     z-index: 99999;
     display: inline-block;
@@ -4015,7 +4015,7 @@ video {
 }
 #section-newsdetails1 .contents .comments .media img{
 	display: inline-block;
-    border: 3px solid #d0bb79;
+    border: 3px solid #fe019a ;
     border-radius: 100%;
     margin-bottom: 28px;
 }
@@ -4051,7 +4051,7 @@ video {
 #section-newsdetails1 .contents .comments .media-body a.reply{
 	font-family: 'Quicksand-Bold';
 	font-size: 14px;
-	color: #d0bb79;
+	color: #fe019a ;
 }
 #section-newsdetails1 .contents .comments .media-body a.reply:hover{
 	opacity: 0.8;
@@ -4086,7 +4086,7 @@ video {
 	letter-spacing: 0;
 }
 #section-newsdetails1 .contents .leave-comment input:focus, #section-newsdetails1 .contents .leave-comment textarea:focus{
-	border: 2px solid #d0bb79 !important;
+	border: 2px solid #fe019a  !important;
 }
 #section-newsdetails1 .contents .leave-comment textarea{
     height: 100px;
@@ -4119,7 +4119,7 @@ video {
 #section-newsdetails1 .contents .leave-comment button{
 	font-family: 'Quicksand-Bold';
     font-size: 16px;
-    background: #d0bb79;
+    background: #fe019a ;
     color: #0d0f16;
     border: none;
     padding: 18px 15px;
@@ -4174,7 +4174,7 @@ video {
 	letter-spacing: 0;
 }
 #section-contact .contact-form input:focus, #section-contact .contact-form textarea:focus{
-	border: 2px solid #d0bb79 !important;
+	border: 2px solid #fe019a  !important;
 }
 #section-contact .contact-form textarea{
     height: 100px;
@@ -4422,8 +4422,8 @@ video {
 	font-family: 'Quicksand-Bold';
     font-size: 14px;
     color: #0d0f16;
-    background: #d0bb79;
-    border: 2px solid #d0bb79;
+    background: #fe019a ;
+    border: 2px solid #fe019a ;
     border-radius: 3px;
     width: 100%;
     max-width: 220px;
@@ -4538,8 +4538,8 @@ video {
 #section-comingsoon .subscribe button{
 	font-family: 'Quicksand-Bold';
     font-size: 16px;
-    background: #d0bb79;
-    border: 2px solid #d0bb79;
+    background: #fe019a ;
+    border: 2px solid #fe019a ;
     color: #0d0f16;
     border-radius: 3px;
     padding: 13px 15px;
@@ -4614,7 +4614,7 @@ video {
     width: 30px !important;
     margin: -6px 0 0 -6px !important;
     border-radius: 2px !important;
-    background: #d0bb79 !important;
+    background: #fe019a  !important;
     transition: all 0.3s ease !important;
 }
 #fp-nav ul li a.active span, 
@@ -4625,7 +4625,7 @@ video {
     width: 90px !important;
     margin: -6px 0 0 -6px !important;
     border-radius: 2px !important;
-    background: #d0bb79 !important;
+    background: #fe019a  !important;
     transition: all 0.3s ease !important;
 }
 #fp-nav ul li .fp-tooltip.fp-right {
@@ -4651,7 +4651,7 @@ video {
 #section-homepage5 .title h1:before{
 	content: '';
     position: absolute;
-    border-left: 4px solid #d0bb79;
+    border-left: 4px solid #fe019a ;
     height: 75px;
     top: 13px;
     left: 15px;
@@ -4738,7 +4738,7 @@ video {
 
 #section-homepage5 #section-2 .left h6{
 	font-family: 'Quicksand-Bold';
-	color: #d0bb79;
+	color: #fe019a ;
 	font-size: 14px;
 	text-transform: uppercase;
 	letter-spacing: 2px;
@@ -4786,7 +4786,7 @@ video {
 	float: left;
 	margin-right: 30px;
 	font-size: 14px;
-	color:#d0bb79;
+	color:#fe019a ;
 	line-height: 28px;
 }
 #section-homepage5 #section-3 .right .accordion .card-header .collapsed:after{
@@ -4905,7 +4905,7 @@ video {
 }
 #section-homepage5 #section-4 .item .overlay i:after {
     content: '';
-    border-bottom: 3px solid #d0bb79;
+    border-bottom: 3px solid #fe019a ;
     width: 70px;
     z-index: 99999;
     display: inline-block;
@@ -4920,7 +4920,7 @@ video {
 #section-homepage5 #section-4 .item .overlay p{
 	font-family: 'Quicksand-Regular';
 	font-size: 12px;
-	color: #d0bb79;
+	color: #fe019a ;
 	text-transform: uppercase;
 	letter-spacing: 3px;
 }
@@ -4993,7 +4993,7 @@ video {
 	background: #2d3239;
 }
 #section-homepage5 #section-5 .fp-controlArrow.fp-prev:hover:after {
-    color: #d0bb79;
+    color: #fe019a ;
 }
 
 #section-homepage5 #section-5 .fp-controlArrow.fp-next {
@@ -5024,7 +5024,7 @@ video {
 	background: #2d3239;
 }
 #section-homepage5 #section-5 .fp-controlArrow.fp-next:hover:after {
-    color: #d0bb79;
+    color: #fe019a ;
 }
 
 
@@ -5061,7 +5061,7 @@ video {
     padding: 21px 30px;
 }
 #section-homepage5 #section-6 .contact-form input:focus, #section-homepage5 #section-6 .contact-form textarea:focus{
-	border: 2px solid #d0bb79 !important;
+	border: 2px solid #fe019a  !important;
 }
 #section-contact .contact-form textarea{
     height: 100px;
@@ -5093,7 +5093,7 @@ video {
 }#section-homepage5 #section-6 .contact-form button{
 	font-family: 'Quicksand-Bold';
     font-size: 16px;
-    background: #d0bb79;
+    background: #fe019a ;
     color: #0d0f16;
     border: none;
     padding: 18px 15px;
@@ -5132,7 +5132,7 @@ video {
 }
 #section-homepage5 #section-6 .contact-form .styled-checkbox + label i:before{
 	font-size: 24px;
-    color: #d0bb79;
+    color: #fe019a ;
     top: 5px;
     margin-left: 28px;
     position: relative;
@@ -5162,10 +5162,10 @@ video {
     position: absolute;
     left: 8px;
     top: 22px;
-    background: #d0bb79;
+    background: #fe019a ;
     width: 2px;
     height: 2px;
-    box-shadow: 2px 0 0 #d0bb79, 4px 0 0 #d0bb79, 4px -2px 0 #d0bb79, 4px -4px 0 #d0bb79, 4px -6px 0 #d0bb79, 4px -8px 0 #d0bb79;
+    box-shadow: 2px 0 0 #fe019a , 4px 0 0 #fe019a , 4px -2px 0 #fe019a , 4px -4px 0 #fe019a , 4px -6px 0 #fe019a , 4px -8px 0 #fe019a ;
     -webkit-transform: rotate(45deg);
     transform: rotate(45deg);
 }
@@ -5194,7 +5194,7 @@ video {
 
 #section-homepage5 #section-6 .contact-details .item .thumb-icon i:before{
 	font-size: 35px;
-	color: #d0bb79;
+	color: #fe019a ;
 }
 
 
