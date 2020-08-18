@@ -5202,6 +5202,9 @@ video {
   text-align: center;
   line-height: 0;
 }
+#section-footer .widget h5 {
+  color: #ffffff;
+}
 #section-footer .ft-copyright p {
   font-family: "SourceSansPro-Regular";
   font-size: 18px;
@@ -5575,12 +5578,12 @@ video {
     text-align: center;
     margin-bottom: 40px;
   }
-  #section-aboutus1 .right .img-fluid{
+  /* #section-aboutus1 .right .img-fluid{ */
     /* border-radius: 12px; */
 /* background: #15171f; */
-box-shadow:  5px 5px 7px #08090c, 
-             -5px -5px 7px #222532;
-  }
+/* box-shadow:  5px 5px 7px #08090c, 
+             -5px -5px 7px #222532; */
+  /* } */
   #section-aboutus1 .bottom {
     margin-top: 0;
   }
