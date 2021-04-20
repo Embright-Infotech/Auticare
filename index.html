@@ -17,19 +17,24 @@
     <!-- Title -->
     <title>Auticare</title>
     <!-- Global site tag (gtag.js) - Google Analytics -->
-    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-174458393-1"></script>
+    <script
+      async
+      src="https://www.googletagmanager.com/gtag/js?id=UA-174458393-1"
+    ></script>
     <script>
       window.dataLayer = window.dataLayer || [];
-      function gtag(){dataLayer.push(arguments);}
-      gtag('js', new Date());
-      gtag('config', 'UA-174458393-1');
+      function gtag() {
+        dataLayer.push(arguments);
+      }
+      gtag("js", new Date());
+      gtag("config", "UA-174458393-1");
     </script>
     <!-- Favicon -->
     <link rel="shortcut icon" href="assets/images/icon-dark.png" />
     <!-- Bootstrap 4 -->
     <link
       rel="stylesheet"
-      href="assets/css/bootstrap.min.css"
+      href="/assets/css/bootstrap.min.css"
       type="text/css"
     />
     <!-- Swiper Slider -->
@@ -37,7 +42,7 @@
     <!-- Fonts -->
     <link
       rel="stylesheet"
-      href="assets/fonts/flaticon/flaticon.css"
+      href="/assets/fonts/flaticon/flaticon.css"
       type="text/css"
     />
     <link
@@ -99,6 +104,7 @@
       media="all"
       href="assets/revslider1/css/revolution.addon.polyfold.css"
     />
+    <link rel="stylesheet" href="/assets/vendor/lity/css/lity.min.css" />
     <!-- /.REVOLUTION SLIDER -->
     <script src="https://aframe.io/releases/1.0.4/aframe.min.js"></script>
     <script src="https://unpkg.com/aframe-event-set-component@5/dist/aframe-event-set-component.min.js"></script>
@@ -108,14 +114,16 @@
 
     <!-- Image link template to be reused. -->
     <script id="link" type="text/html">
-      <a-entity class="link"
+      <a-entity
+        class="link"
         geometry="primitive: plane; height: 1; width: 1"
         material="shader: flat; src: ${thumb}"
         event-set__mouseenter="scale: 1.2 1.2 1"
         event-set__mouseleave="scale: 1 1 1"
         event-set__click="_target: #image-360; _delay: 300; material.src: ${src}"
         proxy-event="event: click; to: #image-360; as: fade"
-        sound="on: click; src: #click-sound"></a-entity>
+        sound="on: click; src: #click-sound"
+      ></a-entity>
     </script>
   </head>
   <body>
@@ -188,13 +196,13 @@
           class="rev_slider_wrapper fullscreen-container"
           data-alias="auticare"
           data-source="gallery"
-          style="background: #ffffff; padding: 0px;"
+          style="background: #ffffff; padding: 0px"
         >
           <!-- START REVOLUTION SLIDER 5.4.8.1 fullscreen mode -->
           <div
             id="rev_slider_14_1"
             class="rev_slider fullscreenbanner"
-            style="display: none;"
+            style="display: none"
             data-version="5.4.8.1"
           >
             <ul>
@@ -329,15 +337,23 @@
                   data-paddingleft="[0,0,0,0]"
                   style="
                     z-index: 7;
-                    white-space: nowrap;
-                    font-size: 10px;
-                    line-height: 80px;
-                    font-weight: 400;
+                    width: 100px;
+                    height: 100px;
                     color: #ffffff;
-                    letter-spacing: 0px;
-                    font-family: Quicksand-Bold;
                   "
-                ></div>
+                >
+                  <div class="video-player-container">
+                    <a href="assets/video/vid.mp4" data-lity>
+                      <i class="fa fa-play-circle" aria-hidden="false"></i>
+                    </a>
+                    <div
+                      id="inline"
+                      style="background: #fff"
+                      class="lity-hide"
+                    ></div>
+                  </div>
+                </div>
+
                 <!-- LAYER NR. 4 -->
                 <div
                   class="tp-caption"
@@ -360,13 +376,13 @@
                   data-paddingleft="[0,0,0,0]"
                   style="
                     z-index: 8;
-                    white-space: nowrap;
+                    /* white-space: nowrap;
                     font-size: 48px;
                     line-height: 48px;
                     font-weight: 400;
                     color: #ffffff;
                     letter-spacing: 0px;
-                    font-family: Open Sans;
+                    font-family: Open Sans; */
                   "
                 >
                   <i class="pe-7s-glasses"></i>
@@ -412,7 +428,7 @@
             </ul>
             <div
               class="tp-bannertimer tp-bottom"
-              style="visibility: hidden !important;"
+              style="visibility: hidden !important"
             ></div>
           </div>
         </div>
@@ -424,7 +440,8 @@
               <div class="left col-sm-12 col-md-6">
                 <h6>About Auticare</h6>
                 <h1>
-                  <span>Auticare</span> An XR-AI based Assistive Technology Platform
+                  <span>Auticare</span> An XR-AI based Assistive Technology
+                  Platform
                 </h1>
                 <p>
                   An XR-AI based Assistive Technology tool and a learning
@@ -448,7 +465,7 @@
                 />
               </div>
             </div>
-            <div id="hidden-div" style="display:none;">
+            <div id="hidden-div" style="display: none">
               <p>
                 Virtual Scenarios and Modules in Auticare aims to improve the
                 above deficit skills related to cognitive, sensory, physical,
@@ -467,19 +484,19 @@
             <script>
               function myFunction() {
                 var x = document.getElementById("hidden-div");
-                var btn_txt = document.getElementById("btn-txt")
+                var btn_txt = document.getElementById("btn-txt");
                 if (x.style.display === "none") {
                   x.style.display = "block";
-                  btn_txt.innerHTML = "Read less"
+                  btn_txt.innerHTML = "Read less";
                 } else {
                   x.style.display = "none";
-                  btn_txt.innerHTML = "Read more"
+                  btn_txt.innerHTML = "Read more";
                 }
               }
             </script>
           </div>
         </div>
-        <!-- /.Setion About us -->        
+        <!-- /.Setion About us -->
         <!-- Section Testimonial 1 -->
         <div id="section-testimonial1">
           <div class="container">
@@ -501,28 +518,6 @@
               crossorigin="anonymous"
               src="https://cdn.aframe.io/360-image-gallery-boilerplate/img/city.jpg"
             />
-            <img
-              id="city-thumb"
-              crossorigin="anonymous"
-              src="https://cdn.aframe.io/360-image-gallery-boilerplate/img/thumb-city.jpg"
-            />
-            <!-- <img id="cubes-thumb" crossorigin="anonymous" src="https://cdn.aframe.io/360-image-gallery-boilerplate/img/thumb-cubes.jpg"> -->
-            <!-- <img id="sechelt-thumb" crossorigin="anonymous" src="https://cdn.aframe.io/360-image-gallery-boilerplate/img/thumb-sechelt.jpg"> -->
-            <audio
-              id="click-sound"
-              crossorigin="anonymous"
-              src="https://cdn.aframe.io/360-image-gallery-boilerplate/audio/click.ogg"
-            ></audio>
-            <img
-              id="cubes"
-              crossorigin="anonymous"
-              src="https://cdn.aframe.io/360-image-gallery-boilerplate/img/cubes.jpg"
-            />
-            <img
-              id="sechelt"
-              crossorigin="anonymous"
-              src="https://cdn.aframe.io/360-image-gallery-boilerplate/img/sechelt.jpg"
-            />
           </a-assets>
           <!-- 360-degree image. -->
           <a-sky
@@ -538,9 +533,6 @@
             layout="type: line; margin: 1.5"
             position="0 -1 -4"
           >
-            <!-- <a-entity template="src: #link" data-src="#cubes" data-thumb="#cubes-thumb"></a-entity> -->
-            <!-- <a-entity template="src: #link" data-src="#city" data-thumb="#city-thumb"></a-entity> -->
-            <!-- <a-entity template="src: #link" data-src="#sechelt" data-thumb="#sechelt-thumb"></a-entity> -->
           </a-entity>
           <!-- Camera + cursor. -->
           <a-entity camera look-controls>
@@ -568,7 +560,7 @@
               <div class="item col-sm-12 col-md-6">
                 <div class="row">
                   <div class="col-10 col-sm-10">
-                    <h3 style="color: #fe019a;">Safe & Fun</h3>
+                    <h3 style="color: #fe019a">Safe & Fun</h3>
                     <p>
                       Doctors guided modules ensures a safe and fun environment
                       for special children
@@ -581,7 +573,7 @@
               <div class="item col-sm-12 col-md-6">
                 <div class="row">
                   <div class="col-10 col-sm-10">
-                    <h3 style="color: #fe019a;">Parental Involvement</h3>
+                    <h3 style="color: #fe019a">Parental Involvement</h3>
                     <p>
                       Home based therapy helps kids to enjoy the learning with
                       support of their parents
@@ -594,7 +586,7 @@
               <div class="item col-sm-12 col-md-6">
                 <div class="row">
                   <div class="col-10 col-sm-10">
-                    <h3 style="margin-top: 50px; color: #fe019a;">
+                    <h3 style="margin-top: 50px; color: #fe019a">
                       Affordable & Immersive
                     </h3>
                     <p>
@@ -610,7 +602,7 @@
               <div class="item col-sm-12 col-md-6">
                 <div class="row">
                   <div class="col-10 col-sm-10">
-                    <h3 style="margin-top: 50px; color: #fe019a;">
+                    <h3 style="margin-top: 50px; color: #fe019a">
                       Enhanced Diagnosis & Therapy Productivity
                     </h3>
                     <p>
@@ -665,11 +657,11 @@
                   <div class="title">
                     <h3>Plan Basic</h3>
                   </div>
-                  <div class="price">
+                  <!-- <div class="price">
                     <span class="symbol">$</span>
                     <span class="nominal">79</span>
                     <span class="currency">usd</span>
-                  </div>
+                  </div> -->
                   <div class="description">
                     <p>
                       - Home based therapy <br />- Consists of customised VR
@@ -678,7 +670,7 @@
                     </p>
                   </div>
                   <div class="btn-buy">
-                    <a href="#">Select</a>
+                    <a href="#">More</a>
                   </div>
                 </div>
               </div>
@@ -693,11 +685,11 @@
                   <div class="title">
                     <h3>Plan Business</h3>
                   </div>
-                  <div class="price">
+                  <!-- <div class="price">
                     <span class="symbol">$</span>
                     <span class="nominal">99</span>
                     <span class="currency">usd</span>
-                  </div>
+                  </div> -->
                   <div class="description">
                     <p>
                       - For clinic, therapy and hospitals centres <br />-
@@ -706,7 +698,7 @@
                     </p>
                   </div>
                   <div class="btn-buy">
-                    <a href="#">Select</a>
+                    <a href="#">More</a>
                   </div>
                 </div>
               </div>
@@ -720,11 +712,11 @@
                   <div class="title">
                     <h3>Plan Enterprise</h3>
                   </div>
-                  <div class="price">
+                  <!-- <div class="price">
                     <span class="symbol">$</span>
                     <span class="nominal">299</span>
                     <span class="currency">usd</span>
-                  </div>
+                  </div> -->
                   <div class="description">
                     <p>
                       - For clinic, therapy, hospital and research centres
@@ -734,7 +726,7 @@
                     </p>
                   </div>
                   <div class="btn-buy">
-                    <a href="#">Select</a>
+                    <a href="#">More</a>
                   </div>
                 </div>
               </div>
@@ -748,11 +740,11 @@
                   <div class="title">
                     <h3>Plan Enterprise</h3>
                   </div>
-                  <div class="price">
+                  <!-- <div class="price">
                     <span class="symbol">$</span>
                     <span class="nominal">299</span>
                     <span class="currency">usd</span>
-                  </div>
+                  </div> -->
                   <div class="description">
                     <p>
                       - For home, clinic, therapy, hospital and research centres
@@ -762,7 +754,7 @@
                     </p>
                   </div>
                   <div class="btn-buy">
-                    <a href="#">Select</a>
+                    <a href="#">More</a>
                   </div>
                 </div>
               </div>
@@ -772,22 +764,28 @@
         </div>
         <!-- /.Section Pricing 1 -->
         <!-- Video -->
-        <div class="video-container">
+        <!-- <div class="video-container">
           <video controls autoplay loop>
             <source src="assets/video/vid.mp4" type="video/mp4" />
             <source src="assets/video/vid.mp4" type="video/ogg" />
             Your browser does not support the video tag.
           </video>
-        </div>
+        </div> -->
         <!-- End Videp -->
         <!-- Section Footer -->
         <div id="section-footer">
           <div class="footer1 col-12">
             <div class="widget col-12">
               <h5>Contact</h5>
-              <p><span>Corporate office:<span><br>NASSCOM CoE IoT, Diamond District Building,<br>Domlur, Bengaluru, Karnataka, 560008. INDIA
-                <br><span>R & D office:<span><br>Kerala Startup Mission (KSUM)G3B,<br>Thejaswini, Technopark Campus, Trivandrum,<br>Kerala 695581. INDIA<br>
-                  Contact us: +91 8792975982, +91 7306701712<br>Email: auticare@embrightinfotech.com</p>
+              <p>
+                <span>Corporate office:</span><br />NASSCOM CoE IoT, Diamond
+                District Building,<br />Domlur, Bengaluru, Karnataka, 560008.
+                INDIA <br /><span>R & D office:</span><br />Kerala Startup
+                Mission (KSUM)G3B,<br />Thejaswini, Technopark Campus,
+                Trivandrum,<br />Kerala 695581. INDIA<br />
+                Contact us: +91 8792975982, +91 7306701712<br />Email:
+                auticare@embrightinfotech.com
+              </p>
               <a href="#"
                 ><img src="assets/images/autilogo.png" alt="Auticare"
               /></a>
@@ -835,6 +833,7 @@
     </div>
     <!-- Javascript Files -->
     <script src="assets/js/jquery.min.js"></script>
+    <script src="/assets/vendor/lity/js/lity.min.js"></script>
     <!-- Bootstrap -->
     <script src="assets/js/bootstrap.min.js"></script>
     <!-- Swiper Slider -->

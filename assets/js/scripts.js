@@ -106,7 +106,6 @@
 	    });
 
     });
-    
 
 	// 6. [Navigation Menu] - Add Background on SCroll
 	$(document).on( 'scroll', function(){
