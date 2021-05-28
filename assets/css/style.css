@@ -426,7 +426,7 @@ form-control:focus {
   color: #ffffff;
   margin-bottom: 14px;
   letter-spacing: 0.4px;
-  line-height: 28px;
+  line-height: 60px;
 }
 .title1 h2 span {
   font-family: "Quicksand-Bold";
@@ -567,7 +567,7 @@ form-control:focus {
 
 #section-preloader .blobs .blob-center {
   position: absolute;
-  background: #fe019a;
+  background: #ffffff;
   top: 50%;
   left: 50%;
   width: 30px;
@@ -579,12 +579,12 @@ form-control:focus {
   -webkit-animation: blob-grow linear 3.4s infinite;
   animation: blob-grow linear 3.4s infinite;
   border-radius: 50%;
-  box-shadow: 0 -10px 40px -5px #fe019a;
+  box-shadow: 0 -10px 40px -5px #ffffff;
 }
 
 #section-preloader .blob {
   position: absolute;
-  background: #fe019a;
+  background: #ffffff;
   top: 50%;
   left: 50%;
   width: 30px;
@@ -1642,7 +1642,7 @@ a.scroll-down:before {
  *  4.2. SECTION ABOUTUS 1   *
  *===========================*/
 #section-aboutus1 {
-  padding: 120px 0;
+  padding: 60px 0;
   background: #0d0f16;
 }
 #section-aboutus1 h6 {
@@ -1828,7 +1828,7 @@ a.scroll-down:before {
  * 	   4.6. SECTION TESTIMONIAL 1     *  
  *====================================*/
 #section-testimonial1 {
-  padding: 120px 0;
+  padding: 60px 0;
   background: #0d0f16;
 }
 #section-testimonial1 .title1 {
@@ -1980,7 +1980,7 @@ a.scroll-down:before {
  *   4.8. SECTION ABOUTUS 2  *
  *===========================*/
 #section-aboutus2 {
-  padding: 120px 0;
+  padding: 60px 0;
   background: #0d0f16;
 }
 #section-aboutus2 h6 {
@@ -2946,7 +2946,7 @@ a.scroll-down:before {
  * V2
  */
 #section-cta3.v2 {
-  padding: 120px 0 0;
+  padding: 60px 0 0;
 }
 #section-cta3.v2 .cta-content p {
   font-family: "SourceSansPro-Regular";
@@ -3108,6 +3108,25 @@ video {
   background: #  background: #0d0f16;
   ;
 }
+#section-cta3 .item {
+  padding: 56px 56px 60px;
+  text-align: center;
+  background: #12141c;
+  position: relative;
+  overflow: hidden;
+  -webkit-transform: all 0.2s ease;
+  transform: all 0.2s ease;
+  border-radius: 12px;
+  background:#0a0a0a;
+}
+#section-cta3 .item img {
+  width: 100px;
+  /* border-radius: 50%; */
+}
+#section-cta3 .item h3 {
+  color: #ffffff;
+}
+
 #section-pricing1 .item h3 {
   font-family: "Quicksand-Bold";
   font-size: 18px;
@@ -3757,7 +3776,6 @@ video {
   float: left;
   border-radius: 3px;
   background: #15171f;
-  box-shadow: 5px 5px 7px #08090c, -2px -2px 7px #222532;
 }
 .sidebar .popular-news .list p {
   font-family: "Quicksand-Bold";
@@ -6649,6 +6667,10 @@ video {
 }
 .video-player-container .fa:hover {
   opacity: 80%;
+}
+[class^="pe-7s-"], [class*=" pe-7s-"] {
+  font-size: 20px;
+  color: #ffffff;
 }
 @media only screen and (max-width: 480px) {
   #section-slider1 .swiper-slide.video-slider .video-play {

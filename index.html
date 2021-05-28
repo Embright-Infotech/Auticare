@@ -27,6 +27,7 @@
         dataLayer.push(arguments);
       }
       gtag("js", new Date());
+
       gtag("config", "UA-174458393-1");
     </script>
     <!-- Favicon -->
@@ -112,7 +113,7 @@
     <script src="https://unpkg.com/aframe-template-component@3.2.1/dist/aframe-template-component.min.js"></script>
     <script src="https://unpkg.com/aframe-proxy-event-component@2.1.0/dist/aframe-proxy-event-component.min.js"></script>
 
-    <!-- Image link template to be reused. -->
+    <!-- Image link template to be reused.
     <script id="link" type="text/html">
       <a-entity
         class="link"
@@ -124,7 +125,7 @@
         proxy-event="event: click; to: #image-360; as: fade"
         sound="on: click; src: #click-sound"
       ></a-entity>
-    </script>
+    </script> -->
   </head>
   <body>
     <!-- Section Preloader -->
@@ -179,7 +180,7 @@
                 <a class="nav-link" href="Contact.html">CONTACT</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="webinar.html">NEWS</a>
+                <a class="nav-link" href="news.html">NEWS</a>
               </li>
             </ul>
           </div>
@@ -234,7 +235,7 @@
               >
                 <!-- MAIN IMAGE -->
                 <img
-                  src="assets/images/bg1.jpg"
+                  src="assets/images/test1.jpg"
                   alt=""
                   data-bgposition="center center"
                   data-bgfit="cover"
@@ -276,7 +277,7 @@
                     font-family: Quicksand-Bold;
                   "
                 >
-                  <strong>My Auticare</strong>
+                  <strong>Auticare</strong>
                 </div>
                 <!-- LAYER NR. 2 -->
                 <div
@@ -335,10 +336,7 @@
                   data-paddingright="[0,0,0,0]"
                   data-paddingbottom="[0,0,0,0]"
                   data-paddingleft="[0,0,0,0]"
-                  style="
-                    z-index: 7;
-                    color: #ffffff;
-                  "
+                  style="z-index: 7; color: #ffffff"
                 >
                   <div class="video-player-container">
                     <a href="assets/video/vid.mp4" data-lity>
@@ -438,15 +436,13 @@
               <div class="left col-sm-12 col-md-6">
                 <h6>About Auticare</h6>
                 <h1>
-                  <span>Auticare</span> An XR-AI based Assistive Technology
-                  Platform
+                  <span>Auticare</span> An XR-AI based Assistive Technology and
+                  Learning Platform
                 </h1>
                 <p>
                   An XR-AI based Assistive Technology tool and a learning
-                  platform for Autism Spectrum Disorder(ASD) and related
-                  neurodevelopmental conditions. Auticare uses virtual reality
-                  scenarios based on ABA therapy modules to rehabilitate
-                  autistic children in major skill components related to
+                  platform for Autism Spectrum Disorder(ASD) and special
+                  education.
                 </p>
                 <button class="btn-3" id="btn-txt" onclick="myFunction()">
                   Read more<i class="fa fa-chevron-right"></i>
@@ -465,18 +461,15 @@
             </div>
             <div id="hidden-div" style="display: none">
               <p>
-                Virtual Scenarios and Modules in Auticare aims to improve the
-                above deficit skills related to cognitive, sensory, physical,
-                behavioural, social, self-care and community based aspects, also
-                helps to identify hidden gifted abilities/capabilities among
-                autistic children.
+                Auticare uses VR scenarios based on ABA therapy modules for
+                skill training and developmental therapy for individuals with
+                Autism spectrum disorder.
               </p>
               <p>
-                Our platform has more than 20 virtual environments and scenes
-                specially designed to easily treat dozens of pathologies. The
-                therapist can use multiple therapeutic techniques
-                (psychoeducation, gradual exposure, systematic desensitization,
-                relaxation, mindfulness) to work with the patients.
+                Our platform has more than 35 VR interactive scenarios which
+                aims at overall development in various aspects like cognitive,
+                social, self care, speech and language, vocational, physical,
+                motor, behavioural and sensory skills.
               </p>
             </div>
             <script>
@@ -495,65 +488,16 @@
           </div>
         </div>
         <!-- /.Setion About us -->
-        <!-- Section Testimonial 1 -->
-        <div id="section-testimonial1">
-          <div class="container">
-            <div class="row">
-              <div class="col">
-                <div class="title1 ez-animate col-12" data-animation="fadeInUp">
-                  <h6>HAVEN'T TRIED VR BEFORE</h6>
-                  <h2>TRY IT OUT</h2>
-                  <i class="flaticon-download"></i>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-        <a-scene embedded>
-          <a-assets>
-            <img
-              id="city"
-              crossorigin="anonymous"
-              src="https://cdn.aframe.io/360-image-gallery-boilerplate/img/city.jpg"
-            />
-          </a-assets>
-          <!-- 360-degree image. -->
-          <a-sky
-            id="image-360"
-            radius="10"
-            src="#city"
-            animation__fade="property: components.material.material.color; type: color; from: #FFF; to: #000; dur: 300; startEvents: fade"
-            animation__fadeback="property: components.material.material.color; type: color; from: #000; to: #FFF; dur: 300; startEvents: animationcomplete__fade"
-          ></a-sky>
-          <!-- Image links. -->
-          <a-entity
-            id="links"
-            layout="type: line; margin: 1.5"
-            position="0 -1 -4"
-          >
-          </a-entity>
-          <!-- Camera + cursor. -->
-          <a-entity camera look-controls>
-            <a-cursor
-              id="cursor"
-              animation__click="property: scale; startEvents: click; from: 0.1 0.1 0.1; to: 1 1 1; dur: 150"
-              animation__fusing="property: fusing; startEvents: fusing; from: 1 1 1; to: 0.1 0.1 0.1; dur: 1500"
-              event-set__mouseenter="_event: mouseenter; color: springgreen"
-              event-set__mouseleave="_event: mouseleave; color: black"
-              raycaster="objects: .link"
-            ></a-cursor>
-          </a-entity>
-        </a-scene>
-        <!-- /.Section Testimonial 1 -->
+
         <!-- Section AboutUs 2 -->
         <div id="section-aboutus2" class="v3">
           <div class="container">
             <div class="row">
               <div class="title1 ez-animate col-12" data-animation="fadeInUp">
-                <h6>WHY CHOOSE US</h6>
+                <h6>WHY AUTICARE</h6>
                 <i class="flaticon-download"></i>
               </div>
-              <div class="space65"></div>
+              <div class="space21"></div>
               <!-- Item -->
               <div class="item col-sm-12 col-md-6">
                 <div class="row">
@@ -612,6 +556,36 @@
                 </div>
               </div>
               <!-- /.Item -->
+              <!-- Item -->
+              <div class="item col-sm-12 col-md-6">
+                <div class="row">
+                  <div class="col-10 col-sm-10">
+                    <h3 style="margin-top: 50px; color: #fe019a">
+                      Replayable VR scenarios and level based assessment
+                    </h3>
+                    <p>
+                      Allows the user to master skills and record the
+                      performance based progress in each levels
+                    </p>
+                  </div>
+                </div>
+              </div>
+              <!-- /.Item -->
+              <!-- Item -->
+              <div class="item col-sm-12 col-md-6">
+                <div class="row">
+                  <div class="col-10 col-sm-10">
+                    <h3 style="margin-top: 50px; color: #fe019a">
+                      Customizable contents
+                    </h3>
+                    <p>
+                      Provides VR scenarios according to the individual
+                      requirements.
+                    </p>
+                  </div>
+                </div>
+              </div>
+              <!-- /.Item -->
             </div>
           </div>
         </div>
@@ -622,22 +596,111 @@
             <div class="row">
               <div class="title1 col-12">
                 <h2>
-                  Working with virtual reality in Assistive tech area has never
-                  been easier
+                  Introducing XR-AI Based Assistive Technology Learning,Diagnosis & Intervention Platform
                 </h2>
                 <i class="flaticon-download"></i>
               </div>
-              <div class="cta-content col-12">
-                <p>
-                  All our plans include an advanced Auticare kit, unlimited
-                  access to Auticare VR platform and scenarios with interactive
-                  environment included in each plan
-                </p>
+
+              <div class="container">
+                <div class="row">
+                  <!-- Item -->
+                  <div
+                    class="ez-animate col-sm-12 col-md-4 col-lg-4"
+                    data-animation="fadeInLeft"
+                  >
+                    <div class="item">
+                      <div class="title">
+                        <h3>VR Interactive Scenarios</h3>
+                      </div>
+                      <div class="space10"></div>
+                      <img src="assets/images/beach-ball.png">
+                      <div class="space10"></div>
+                      <div class="description">
+                        <p>
+                          more than 35 interactive scenarios for various skill development
+                        </p>
+                      </div>
+                    </div>
+                  </div>
+                  <!-- /.Item -->
+                  <!-- Item -->
+                  <div
+                    class="ez-animate col-sm-12 col-md-4 col-lg-4"
+                    data-animation="fadeInUp"
+                  >
+                    <div class="item">
+                      <div class="title">
+                        <h3>Data Capturing Module/System</h3>
+                      </div>
+                      <div class="space10"></div>
+                      <img src="assets/images/mental-health.png">
+                      <div class="space10"></div>
+                      <div class="description">
+                        <p>
+                          Capturing attention,<br>concentration, stress, emotions
+                        </p>
+                      </div>
+                    </div>
+                  </div>
+                  <!-- /.Item -->
+                  <!-- Item -->
+                  <div
+                    class="ez-animate col-sm-12 col-md-4 col-lg-4"
+                    data-animation="fadeInRight"
+                  >
+                    <div class="item">
+                      <div class="title">
+                        <h3>AI Based Behaviour Performance data</h3>
+                      </div>
+                      <div class="space10"></div>
+                      <img src="assets/images/distributed.png">
+                      <div class="space10"></div>
+                      <div class="description">
+                        <p>
+                          Each individual can be monitored separately
+                        </p>
+                      </div>
+                    </div>
+                  </div>
+                  <!-- /.Item -->
+                </div>
               </div>
             </div>
           </div>
         </div>
         <!-- /.Section CTA 3 -->
+        <!-- Section Testimonial 1 -->
+        <div id="section-testimonial1">
+          <div class="container">
+            <div class="row">
+              <div class="col">
+                <div class="title1 ez-animate col-12" data-animation="fadeInUp">
+                  <h6>Ready for Auticare Demo</h6>
+                  <h2>TRY IT OUT</h2>
+                  <i class="flaticon-download"></i>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <a-scene embedded>
+          <a-assets>
+            <img
+              id="city"
+              crossorigin="anonymous"
+              src="https://cdn.aframe.io/360-image-gallery-boilerplate/img/city.jpg"
+            />
+          </a-assets>
+          <!-- 360-degree image. -->
+          <a-sky
+            id="image-360"
+            radius="10"
+            src="#city"></a-sky>
+        </a-sky>
+          <a-entity camera look-controls>
+          </a-entity>
+        </a-scene>
+        <!-- /.Section Testimonial 1 -->
         <!-- Section Pricing 1 -->
         <div id="section-pricing1">
           <div class="container">
@@ -655,11 +718,6 @@
                   <div class="title">
                     <h3>Plan Basic</h3>
                   </div>
-                  <!-- <div class="price">
-                    <span class="symbol">$</span>
-                    <span class="nominal">79</span>
-                    <span class="currency">usd</span>
-                  </div> -->
                   <div class="description">
                     <p>
                       - Home based therapy <br />- Consists of customised VR
@@ -668,7 +726,7 @@
                     </p>
                   </div>
                   <div class="btn-buy">
-                    <a href="#">More</a>
+                    <a href="/Contact.html">More</a>
                   </div>
                 </div>
               </div>
@@ -683,11 +741,6 @@
                   <div class="title">
                     <h3>Plan Business</h3>
                   </div>
-                  <!-- <div class="price">
-                    <span class="symbol">$</span>
-                    <span class="nominal">99</span>
-                    <span class="currency">usd</span>
-                  </div> -->
                   <div class="description">
                     <p>
                       - For clinic, therapy and hospitals centres <br />-
@@ -696,7 +749,7 @@
                     </p>
                   </div>
                   <div class="btn-buy">
-                    <a href="#">More</a>
+                    <a href="/Contact.html">More</a>
                   </div>
                 </div>
               </div>
@@ -710,11 +763,6 @@
                   <div class="title">
                     <h3>Plan Enterprise</h3>
                   </div>
-                  <!-- <div class="price">
-                    <span class="symbol">$</span>
-                    <span class="nominal">299</span>
-                    <span class="currency">usd</span>
-                  </div> -->
                   <div class="description">
                     <p>
                       - For clinic, therapy, hospital and research centres
@@ -724,7 +772,7 @@
                     </p>
                   </div>
                   <div class="btn-buy">
-                    <a href="#">More</a>
+                    <a href="/Contact.html">More</a>
                   </div>
                 </div>
               </div>
@@ -738,11 +786,6 @@
                   <div class="title">
                     <h3>Plan Enterprise</h3>
                   </div>
-                  <!-- <div class="price">
-                    <span class="symbol">$</span>
-                    <span class="nominal">299</span>
-                    <span class="currency">usd</span>
-                  </div> -->
                   <div class="description">
                     <p>
                       - For home, clinic, therapy, hospital and research centres
@@ -752,7 +795,7 @@
                     </p>
                   </div>
                   <div class="btn-buy">
-                    <a href="#">More</a>
+                    <a href="/Contact.html">More</a>
                   </div>
                 </div>
               </div>
@@ -776,12 +819,12 @@
             <div class="widget col-12">
               <h5>Contact</h5>
               <p>
-                <span>Corporate office:</span><br />NASSCOM CoE IoT, Diamond
-                District Building,<br />Domlur, Bengaluru, Karnataka, 560008.
-                INDIA <br /><span>R & D office:</span><br />Kerala Startup
-                Mission (KSUM)G3B,<br />Thejaswini, Technopark Campus,
-                Trivandrum,<br />Kerala 695581. INDIA<br />
-                Contact us: +91 8792975982, +91 7306701712<br />Email:
+                <span>Corporate office:</span><br />NASSCOM CoE IoT,Diamond
+                District Building,<br />Domlur,Bengaluru, Karnataka, 560008.
+                INDIA<br />
+                <span>R & D office:</span><br />Kerala Startup Mission
+                (KSUM)G3B,Thejaswini,<br />Technopark Campus, Trivandrum,Kerala
+                695581. INDIA <br />Contact us: +91 8792975982, +91 730670171<br />Email:
                 auticare@embrightinfotech.com
               </p>
               <a href="#"
