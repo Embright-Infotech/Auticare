@@ -414,7 +414,7 @@ form-control:focus {
 }
 #section-aboutus2 .title1 h6 {
   font-family: "Quicksand-Bold";
-  font-size: 14px;
+  font-size: 30px;
   color: #fe019a;
   letter-spacing: 3.4px;
   margin-bottom: 17px;
@@ -1637,6 +1637,10 @@ a.scroll-down:before {
     box-shadow: 0 0 0 0 rgba(204, 169, 44, 0);
   }
 }
+.versions img {
+  width: 400px;
+  border-radius: 30px;
+}
 
 /*============================
  *  4.2. SECTION ABOUTUS 1   *
@@ -1648,7 +1652,7 @@ a.scroll-down:before {
 #section-aboutus1 h6 {
   font-family: "Quicksand-Bold";
   color: #fe019a;
-  font-size: 14px;
+  font-size: 30px;
   text-transform: uppercase;
   letter-spacing: 2px;
   margin-bottom: 11px;
