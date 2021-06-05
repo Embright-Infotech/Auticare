@@ -170,7 +170,7 @@ form-control:focus {
 #main-content.active {
   width: 100%;
 }
-#main-content.active .btn-3{
+#main-content.active .cover-btn {
   color: #fff;
   width: 500px !important;
   background-color: #d3b05e;
