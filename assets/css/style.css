@@ -170,6 +170,13 @@ form-control:focus {
 #main-content.active {
   width: 100%;
 }
+#main-content.active .btn-3{
+  color: #fff;
+  width: 500px !important;
+  background-color: #d3b05e;
+  border: 0px;
+  border-radius: 30px;
+}
 .c-yellow {
   color: #fe019a !important;
 }
@@ -935,7 +942,6 @@ form-control:focus {
 #section-navbar1 .header-contact span {
   color: #ffffff;
 }
-
 /**
  * 3.4 Sidebar
  */
