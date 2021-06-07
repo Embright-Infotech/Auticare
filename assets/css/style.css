@@ -1080,7 +1080,7 @@ a[aria-expanded="true"] {
   height: 2px;
   margin: 0 auto;
   display: block;
-  background: #fe019a;
+  background: #d3b05e;
   transition: all 0.5s cubic-bezier(0.81, -0.33, 0.345, 1.375);
   transition-delay: 0.1s;
 }
