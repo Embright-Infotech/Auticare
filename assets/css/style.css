@@ -5213,6 +5213,22 @@ video {
   line-height: 0;
   border-top: 1px solid #fe019a;
 }
+#section-footer .ft-tandc {
+  text-align: center;
+  padding: 10px 5px;
+}
+#section-footer .ft-tandc p {
+  font-family: "SourceSansPro-Regular";
+  font-size: 18px;
+  color: #5b5b5b;
+  margin: 0;
+  line-height: 30px;
+  opacity: 0.8;
+}
+#section-footer .ft-tandc a p:hover {
+  color: #fe019a;
+}
+
 #section-footer .ft-copyright p {
   font-family: "SourceSansPro-Regular";
   font-size: 18px;
@@ -6739,4 +6755,13 @@ video {
   #section-slider1 .slider-content {
     max-width: 1170px;
   }
+}
+
+.logo-strip {
+  flex: auto;
+  flex-direction: row;
+  align-items: center;
+}
+.logo-strip a {
+  padding: 10px;
 }
